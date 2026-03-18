@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/prasad-v-potluri-siddhartha-institute-of-technology-vijayawada-24531",
-  "https://www.shiksha.com/university/rabindranath-tagore-university-bhopal-52700",
-  "https://www.shiksha.com/college/sri-venkateswara-college-of-engineering-and-technology-chittoor-37770",
-  "https://www.shiksha.com/college/vidya-jyothi-institute-of-technology-c-b-post-hyderabad-25306",
-  "https://www.shiksha.com/college/national-engineering-college-tamil-nadu-other-20725",
-  "https://www.shiksha.com/college/malla-reddy-engineering-college-secunderabad-44794",
-  "https://www.shiksha.com/college/d-y-patil-college-of-engineering-akurdi-akurdi-pune-20837",
-  "https://www.shiksha.com/college/maharaja-agrasen-institute-of-technology-rohini-delhi-24875",
-  "https://www.shiksha.com/college/maharaja-surajmal-institute-of-technology-janakpuri-delhi-38183",
-  "https://www.shiksha.com/college/zakir-husain-college-of-engineering-and-technology-aligarh-muslim-university-50219",
-  "https://www.shiksha.com/college/iiit-bhagalpur-indian-institute-of-information-technology-53841",
-  "https://www.shiksha.com/college/kl-college-of-engineering-kl-university-guntur-53517",
-  "https://www.shiksha.com/college/bharati-vidyapeeth-college-of-engineering-delhi-paschim-vihar-26574",
-  "https://www.shiksha.com/college/mec-kochi-government-model-engineering-college-20660",
-  "https://www.shiksha.com/college/east-point-group-of-institutions-avalahalli-bangalore-3054",
-  "https://www.shiksha.com/college/jnnce-jawaharlal-nehru-national-college-of-engineering-shimoga-22357",
-  "https://www.shiksha.com/college/guru-nanak-dev-engineering-college-ludhiana-3845",
-  "https://www.shiksha.com/college/amc-engineering-college-bannerghatta-road-bangalore-382",
-  "https://www.shiksha.com/college/chandigarh-group-of-colleges-landran-45524",
-  "https://www.shiksha.com/university/jk-lakshmipat-university-jaipur-47379",
+  "https://www.shiksha.com/college/meenakshi-sundararajan-engineering-college-kodambakkam-chennai-37501",
+  "https://www.shiksha.com/college/government-engineering-college-palamu-jharkhand-other-156959",
+  "https://www.shiksha.com/college/sir-chotu-ram-institute-of-engineering-and-technology-meerut-54558",
+  "https://www.shiksha.com/college/imperial-college-of-engineering-and-research-wagholi-pune-59691",
+  "https://www.shiksha.com/college/tamilnadu-college-of-engineering-coimbatore-25099",
+  "https://www.shiksha.com/college/g-v-acharya-institute-of-engineering-and-technology-mumbai-72931",
+  "https://www.shiksha.com/college/mce-malnad-college-of-engineering-hassan-20605",
+  "https://www.shiksha.com/college/b-r-harne-college-of-engineering-and-technology-thane-mumbai-52522",
+  "https://www.shiksha.com/college/atal-bihari-vajpayee-government-institute-of-engineering-and-technology-shimla-58857",
+  "https://www.shiksha.com/college/gulzar-group-of-institutions-ludhiana-34430",
+  "https://www.shiksha.com/college/ace-engineering-college-medchal-hyderabad-52550",
+  "https://www.shiksha.com/college/school-of-engineering-and-technology-itm-university-gwalior-52892",
+  "https://www.shiksha.com/college/government-college-of-engineering-salem-20068",
+  "https://www.shiksha.com/university/desh-bhagat-university-punjab-punjab-other-26990",
+  "https://www.shiksha.com/college/jeppiaar-engineering-college-jeppiaar-nagar-chennai-49367",
+  "https://www.shiksha.com/college/maharaja-institute-of-technology-mysore-59149",
+  "https://www.shiksha.com/university/jaypee-university-of-engineering-and-technology-madhya-pradesh-other-21906",
+  "https://www.shiksha.com/university/vikram-university-ujjain-23086",
+  "https://www.shiksha.com/university/itm-skills-university-navi-mumbai-213055",
+  "https://www.shiksha.com/university/maharishi-university-of-information-technology-noida-campus-48906",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =121
+    c_count =541
 
     try:
         for base_url in BASE_URL:
