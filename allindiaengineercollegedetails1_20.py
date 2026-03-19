@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/ists-women-s-engineering-college-andhra-pradesh-other-60745",
-  "https://www.shiksha.com/college/shri-madhwa-vadiraja-institute-of-technology-and-management-smvitm-karnataka-other-48259",
-  "https://www.shiksha.com/college/b-b-s-group-of-institution-allahabad-52855",
-  "https://www.shiksha.com/college/g-h-raisoni-college-of-engineering-and-management-ahmednagar-53345",
-  "https://www.shiksha.com/college/nielit-patna-50656",
-  "https://www.shiksha.com/college/hansaba-college-of-engineering-and-technology-patan-58555",
-  "https://www.shiksha.com/college/jp-institute-of-engineering-and-technology-meerut-37306",
-  "https://www.shiksha.com/college/nalla-narasimha-reddy-education-society-s-group-of-institutions-ghatkesar-87757",
-  "https://www.shiksha.com/college/n-b-k-r-institute-of-science-and-technology-tirupati-25418",
-  "https://www.shiksha.com/college/sri-shanmugha-college-of-engineering-and-technology-salem-48487",
-  "https://www.shiksha.com/college/college-of-basic-sciences-humanities-pusa-samastipur-131217",
-  "https://www.shiksha.com/college/alard-college-of-engineering-and-management-pune-190141",
-  "https://www.shiksha.com/university/sun-rise-university-alwar-38064",
-  "https://www.shiksha.com/university/rgukt-iiit-basara-rajiv-gandhi-university-of-knowledge-technologies-telangana-other-52577",
-  "https://www.shiksha.com/college/nri-institute-of-technology-guntur-60865",
-  "https://www.shiksha.com/university/north-east-frontier-technical-university-arunachal-pradesh-other-64565",
-  "https://www.shiksha.com/college/prerana-pratishthan-s-universal-college-of-engineering-and-research-saswad-pune-47557",
-  "https://www.shiksha.com/college/kiit-school-of-chemical-technology-bhubaneswar-225377",
-  "https://www.shiksha.com/college/rajshree-institute-of-management-and-technology-bareilly-43048",
-  "https://www.shiksha.com/college/pondicherry-engineering-college-tamil-nadu-22872",
+  "https://www.shiksha.com/college/indus-institute-of-technology-and-management-iitm-kanpur-43229",
+  "https://www.shiksha.com/college/st-aloysius-institute-of-technology-sait-jbp-jabalpur-48236",
+  "https://www.shiksha.com/college/jain-college-of-engineering-and-research-belagavi-belgaum-60729",
+  "https://www.shiksha.com/college/seemanta-engineering-college-orissa-other-21971",
+  "https://www.shiksha.com/college/vivekanand-institute-of-technology-and-science-ghaziabad-42656",
+  "https://www.shiksha.com/college/c-k-college-of-engineering-technology-cuddalore-60467",
+  "https://www.shiksha.com/college/pollachi-institute-of-engineering-and-technology-coimbatore-61605",
+  "https://www.shiksha.com/college/arun-muchhala-engineering-college-amreli-196831",
+  "https://www.shiksha.com/university/jeppiaar-university-chennai-209061",
+  "https://www.shiksha.com/college/northern-institute-of-engineering-technical-campus-niet-alwar-42304",
+  "https://www.shiksha.com/college/kanad-institute-of-engineering-management-kiem-bardhaman-57937",
+  "https://www.shiksha.com/college/smt-kamala-and-sri-venkappa-m-agadi-college-of-engineering-technology-sksvmacet-karnataka-other-23519",
+  "https://www.shiksha.com/college/lyallpur-khalsa-college-of-engineering-jalandhar-48249",
+  "https://www.shiksha.com/college/sri-venkateswara-college-of-engineering-kadapa-70275",
+  "https://www.shiksha.com/college/college-of-engineering-and-rural-technology-meerut-19747",
+  "https://www.shiksha.com/college/dr-jivraj-mehta-institute-of-technology-anand-60133",
+  "https://www.shiksha.com/college/jahangirabad-institute-of-technology-barabanki-33024",
+  "https://www.shiksha.com/college/sri-chaitanya-technical-campus-telangana-other-62073",
+  "https://www.shiksha.com/university/maharashtra-animal-and-fishery-sciences-university-nagpur-64813",
+  "https://www.shiksha.com/university/dhamma-dipa-international-buddhist-university-tripura-other-229922",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1041
+    c_count =1421
 
     try:
         for base_url in BASE_URL:
