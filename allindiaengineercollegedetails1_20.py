@@ -35,6 +35,12 @@ BASE_URL = [
   "https://www.shiksha.com/college/lord-krishna-college-of-engineering-lkce-ghaziabad-23667",
   "https://www.shiksha.com/college/trr-college-of-engineering-medak-42736",
   "https://www.shiksha.com/college/translam-institute-of-technology-and-management-technical-campus-meerut-43231",
+  "https://www.shiksha.com/college/shri-ram-murti-smarak-college-of-engineering-and-technology-unnao-59421",
+  "https://www.shiksha.com/college/gyan-bharti-institute-of-technology-meerut-59891",
+  "https://www.shiksha.com/college/gurudeva-institute-of-science-technology-puthuppally-kottayam-60375",
+  "https://www.shiksha.com/college/narayanadri-institute-of-science-and-technology-kadapa-60843",
+  "https://www.shiksha.com/college/mahakavi-bharathiyar-college-of-engineering-and-technology-tirunelveli-61769",
+  "https://www.shiksha.com/college/girdhar-group-of-institutions-mandideep-65189"
 ]
 
 
