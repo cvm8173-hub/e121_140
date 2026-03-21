@@ -28,19 +28,19 @@ BASE_URL = [
   "https://www.shiksha.com/college/ishwarchand-vidya-sagar-institute-of-techonolgy-ivsit-mathura-46626",
   "https://www.shiksha.com/college/amardeep-college-of-engineering-and-management-firozabad-66495",
   "https://www.shiksha.com/college/dadasaheb-mokashi-college-of-agricultural-engineering-and-technology-satara-67005",
-  "https://www.shiksha.com/college/shri-bhagavat-mahavidyalaya-varanasi-116635",
-  "https://www.shiksha.com/college/sri-ramakrishna-college-of-education-perambalur-142301",
-  "https://www.shiksha.com/college/ghousia-institute-of-technology-for-women-bangalore-213711",
-  "https://www.shiksha.com/university/jss-university-noida-245078",
-  "https://www.shiksha.com/college/lord-krishna-college-of-engineering-lkce-ghaziabad-23667",
-  "https://www.shiksha.com/college/trr-college-of-engineering-medak-42736",
-  "https://www.shiksha.com/college/translam-institute-of-technology-and-management-technical-campus-meerut-43231",
-  "https://www.shiksha.com/college/shri-ram-murti-smarak-college-of-engineering-and-technology-unnao-59421",
-  "https://www.shiksha.com/college/gyan-bharti-institute-of-technology-meerut-59891",
-  "https://www.shiksha.com/college/gurudeva-institute-of-science-technology-puthuppally-kottayam-60375",
-  "https://www.shiksha.com/college/narayanadri-institute-of-science-and-technology-kadapa-60843",
-  "https://www.shiksha.com/college/mahakavi-bharathiyar-college-of-engineering-and-technology-tirunelveli-61769",
-  "https://www.shiksha.com/college/girdhar-group-of-institutions-mandideep-65189"
+  # "https://www.shiksha.com/college/shri-bhagavat-mahavidyalaya-varanasi-116635",
+  # "https://www.shiksha.com/college/sri-ramakrishna-college-of-education-perambalur-142301",
+  # "https://www.shiksha.com/college/ghousia-institute-of-technology-for-women-bangalore-213711",
+  # "https://www.shiksha.com/university/jss-university-noida-245078",
+  # "https://www.shiksha.com/college/lord-krishna-college-of-engineering-lkce-ghaziabad-23667",
+  # "https://www.shiksha.com/college/trr-college-of-engineering-medak-42736",
+  # "https://www.shiksha.com/college/translam-institute-of-technology-and-management-technical-campus-meerut-43231",
+  # "https://www.shiksha.com/college/shri-ram-murti-smarak-college-of-engineering-and-technology-unnao-59421",
+  # "https://www.shiksha.com/college/gyan-bharti-institute-of-technology-meerut-59891",
+  # "https://www.shiksha.com/college/gurudeva-institute-of-science-technology-puthuppally-kottayam-60375",
+  # "https://www.shiksha.com/college/narayanadri-institute-of-science-and-technology-kadapa-60843",
+  # "https://www.shiksha.com/college/mahakavi-bharathiyar-college-of-engineering-and-technology-tirunelveli-61769",
+  # "https://www.shiksha.com/college/girdhar-group-of-institutions-mandideep-65189"
 ]
 
 
