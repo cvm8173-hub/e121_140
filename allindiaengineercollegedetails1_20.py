@@ -15,32 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  # "https://www.shiksha.com/college/jayamatha-engineering-college-kanyakumari-22691",
-  # "https://www.shiksha.com/college/svs-group-of-institutions-meerut-42928",
-  # "https://www.shiksha.com/college/d-a-degree-engineering-and-technology-kheda-60119",
-  # "https://www.shiksha.com/college/roever-engineering-college-tamil-nadu-other-61543",
-  # "https://www.shiksha.com/college/vishnu-lakshmi-college-of-engineering-and-technology-coimbatore-61631",
-  # "https://www.shiksha.com/college/sakshi-institute-of-technology-and-management-guna-67671",
-  # "https://www.shiksha.com/college/srikant-sanskrit-mahavidyalaya-shikshan-kalyan-sansthan-bihar-other-116131",
-  # "https://www.shiksha.com/college/bharti-college-of-engineering-and-technology-durg-202071",
-  # "https://www.shiksha.com/college/dr-bhagat-singh-rai-institute-of-technology-madhya-pradesh-other-228497",
-  # "https://www.shiksha.com/college/dr-navalar-nedunchezhiyan-college-of-engineering-tamil-nadu-other-24107",
-  # "https://www.shiksha.com/college/ishwarchand-vidya-sagar-institute-of-techonolgy-ivsit-mathura-46626",
-  # "https://www.shiksha.com/college/amardeep-college-of-engineering-and-management-firozabad-66495",
-  # "https://www.shiksha.com/college/dadasaheb-mokashi-college-of-agricultural-engineering-and-technology-satara-67005",
-  "https://www.shiksha.com/college/shri-bhagavat-mahavidyalaya-varanasi-116635",
-  "https://www.shiksha.com/college/sri-ramakrishna-college-of-education-perambalur-142301",
-  "https://www.shiksha.com/college/ghousia-institute-of-technology-for-women-bangalore-213711",
-  "https://www.shiksha.com/university/jss-university-noida-245078",
-  "https://www.shiksha.com/college/lord-krishna-college-of-engineering-lkce-ghaziabad-23667",
-  "https://www.shiksha.com/college/trr-college-of-engineering-medak-42736",
-  "https://www.shiksha.com/college/translam-institute-of-technology-and-management-technical-campus-meerut-43231",
-  "https://www.shiksha.com/college/shri-ram-murti-smarak-college-of-engineering-and-technology-unnao-59421",
-  "https://www.shiksha.com/college/gyan-bharti-institute-of-technology-meerut-59891",
-  "https://www.shiksha.com/college/gurudeva-institute-of-science-technology-puthuppally-kottayam-60375",
-  "https://www.shiksha.com/college/narayanadri-institute-of-science-and-technology-kadapa-60843",
-  "https://www.shiksha.com/college/mahakavi-bharathiyar-college-of-engineering-and-technology-tirunelveli-61769",
-  "https://www.shiksha.com/college/girdhar-group-of-institutions-mandideep-65189"
+  "https://www.shiksha.com/college/new-mangalore-college-of-pharmacy-kolar-207825",
+  "https://www.shiksha.com/college/sharada-college-of-pharmacy-koppal-207903",
+  "https://www.shiksha.com/college/sri-mylaralingeshwara-college-of-pharmacy-chitradurga-207941",
+  "https://www.shiksha.com/college/st-theresa-group-of-institutions-bangalore-207971",
+  "https://www.shiksha.com/college/vivekanand-education-society-s-college-of-pharmacy-haveri-208011",
+  "https://www.shiksha.com/college/awadhmadhav-college-of-pharmacy-gwalior-208045",
+  "https://www.shiksha.com/college/parikrama-group-of-institutions-ahmednagar-208089",
+  "https://www.shiksha.com/college/institute-of-pharmaceutical-sciences-balasore-208123",
+  "https://www.shiksha.com/college/samrat-prithviraj-chauhan-college-of-pharmacy-uttarakhand-other-208281",
+  "https://www.shiksha.com/college/r-d-k-homoeopathic-medical-college-and-hospital-motihari-214869",
+  "https://www.shiksha.com/college/r-b-m-college-diploma-in-pharmacy-sahibganj-231494",
+  "https://www.shiksha.com/college/parbhani-medical-college-parbhani-231706",
+  "https://www.shiksha.com/college/mizoram-institute-of-pharmaceutical-sciences-mizoram-other-236822",
+  "https://www.shiksha.com/college/khandesh-education-society-s-college-of-pharmacy-jalgaon-88829",
+  "https://www.shiksha.com/college/swami-dayanand-college-of-pharmacy-bathinda-88911",
+  "https://www.shiksha.com/college/kv-pharmacy-college-agra-88979",
+  "https://www.shiksha.com/college/satara-education-society-s-late-suman-dhekane-department-of-pharmacy-89195",
+  "https://www.shiksha.com/college/calcutta-institute-of-hotel-hospitality-management-baguiati-kolkata-89397",
+  "https://www.shiksha.com/college/sum-nursing-school-bhubaneswar-91375",
+  "https://www.shiksha.com/college/meera-college-of-pharmacy-ferozpur-99437",
 ]
 
 
@@ -9249,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =2274
+    c_count =3921
 
     try:
         for base_url in BASE_URL:
