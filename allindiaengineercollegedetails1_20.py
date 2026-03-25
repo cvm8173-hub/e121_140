@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/bsn-college-of-pharmacy-karnataka-other-100927",
-  "https://www.shiksha.com/college/matoshri-subhadrabai-patil-arts-and-late-pandurangji-thakare-commerce-college-washim-117503",
-  "https://www.shiksha.com/college/suman-prakash-mahavidhyalay-firozabad-122743",
-  "https://www.shiksha.com/college/k-g-hospital-and-post-graduate-medical-institute-coimbatore-140981",
-  "https://www.shiksha.com/college/dbm-college-of-pharmacy-chhattisgarh-other-146523",
-  "https://www.shiksha.com/college/r-m-s-institute-of-pharmacy-nashik-147669",
-  "https://www.shiksha.com/college/sfc-institute-of-pharmacy-moga-148109",
-  "https://www.shiksha.com/college/thirumagal-polytechnic-college-kanchipuram-148327",
-  "https://www.shiksha.com/college/theni-kammavar-sangam-polytechnic-college-148429",
-  "https://www.shiksha.com/college/bds-college-of-pharmacy-uttar-pradesh-other-148583",
-  "https://www.shiksha.com/college/vijay-sudha-college-of-pharmacy-uttar-pradesh-other-148635",
-  "https://www.shiksha.com/college/st-joseph-s-international-fire-and-safety-academy-jifsa-jogeshwari-west-mumbai-152721",
-  "https://www.shiksha.com/college/gtb-college-of-pharmacy-and-technology-bathinda-154865",
-  "https://www.shiksha.com/college/late-pooran-ramprakash-dixit-college-of-pharmacy-uttar-pradesh-other-181821",
-  "https://www.shiksha.com/college/dr-college-of-pharmacy-hapur-181829",
-  "https://www.shiksha.com/college/sri-rajendra-singh-college-of-pharmacy-hardoi-181833",
-  "https://www.shiksha.com/college/shivmurat-pharmacy-college-jaunpur-181851",
-  "https://www.shiksha.com/college/vmy-college-of-pharmacy-uttar-pradesh-other-181937",
-  "https://www.shiksha.com/college/government-ayurved-college-bilaspur-188063",
-  "https://www.shiksha.com/college/soundarapandian-bone-and-joint-hospital-and-research-institute-pvt-ltd-chennai-193939",
+  "https://www.shiksha.com/college/k-m-government-college-jind-72549",
+  "https://www.shiksha.com/college/m-d-college-of-technology-and-management-barabanki-73127",
+  "https://www.shiksha.com/college/danigond-ayurvedic-medical-college-bagalkot-87297",
+  "https://www.shiksha.com/college/school-of-nursing-and-medical-technology-ias-academy-burdwan-bardhaman-48643",
+  "https://www.shiksha.com/college/sri-basaveshwara-vidyavrdhaka-sangha-ayurvedic-medical-college-bagalkot-68285",
+  "https://www.shiksha.com/college/marudhar-kesari-jain-college-for-women-vaniyambadi-73479",
+  "https://www.shiksha.com/college/dev-polytechnic-college-jind-97881",
+  "https://www.shiksha.com/college/guru-ram-dass-college-of-pharmacy-patiala-154867",
+  "https://www.shiksha.com/college/surya-college-of-pharmacy-electronic-city-bangalore-156761",
+  "https://www.shiksha.com/college/jammu-college-of-physiotherapy-187435",
+  "https://www.shiksha.com/college/vikas-institute-of-medical-sciences-college-of-medical-lab-technology-guntur-188805",
+  "https://www.shiksha.com/college/tirupur-kalaimagal-college-of-pharmacy-208277",
+  "https://www.shiksha.com/college/government-ayurved-college-and-hospital-banda-213903",
+  "https://www.shiksha.com/college/emversity-school-of-hospitality-hubbali-hubli-240456",
+  "https://www.shiksha.com/college/ayush-college-of-pharmacy-bilaspur-88653",
+  "https://www.shiksha.com/college/mda-school-of-pharmacy-latur-89095",
+  "https://www.shiksha.com/college/nashik-district-maratha-vidya-prasarak-samaj-s-institute-of-pharmaceutical-sciences-89171",
+  "https://www.shiksha.com/college/laxmi-bai-sahu-college-jabalpur-142881",
+  "https://www.shiksha.com/college/shree-swaminarayan-institute-of-technology-gandhinagar-60185",
+  "https://www.shiksha.com/college/sri-sai-college-of-pharmacy-vizianagaram-60891",
 ]
 
 
@@ -9246,7 +9246,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =4281
+    c_count =2581
 
     try:
         for base_url in BASE_URL:
